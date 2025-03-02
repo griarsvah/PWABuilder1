@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="PWABuilder">
+		<meta name="theme-color" content="#ffffff">
+		<link rel="manifest" href="manifest.webmanifest" crossorigin="use-credentials">
+		<title>PWABuilder</title>
+		<link rel="shortcut icon" href="images/favicons/favicon.ico">
+		<style>@media (display-mode: standalone), 
+			(display-mode: window-controls-overlay) { 
+			 .pwa-install-button { 
+			   display: none; 
+			 } 
+		}</style>
+	</head>
+	<body>
+<h1>PWABuilder</h1>
+		<script>if (typeof navigator.serviceWorker !== 'undefined') {
+			navigator.serviceWorker.register('sw.js')
+		}</script>
+	</body>
+</html>
