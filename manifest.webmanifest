@@ -9,7 +9,7 @@
 "name": "Vahe PWA",
 "orientation": "any",
 "short_name": "Vahe",
-"start_url": "https://griarsvah.github.io/PWABuilder/index.html",
+"start_url": "https://griarsvah.github.io/PWABuilder1/index.html",
 "scope": "/",
 "theme_color": "#ffffff",
 "screenshots": [
@@ -156,7 +156,7 @@
 "related_applications": [
   {
       "platform": "webapp",
-      "url": "https://griarsvah.github.io/PWABuilder/manifest.webmanifest"
+      "url": "https://griarsvah.github.io/PWABuilder1/manifest.webmanifest"
   },
   {
       "platform": "itunes",
