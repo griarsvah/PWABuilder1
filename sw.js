@@ -146,3 +146,12 @@ self.addEventListener('fetch', (event) => {
     }
   })());
 });
+
+
+// Respond to the user selecting the toast notification.
+self.addEventListener('notificationclick', function (event) {
+    event.notification.close(); // Android needs explicit close.
+    event.waitUntil(
+        clients.openWindow(event.notification.data.url) // This line will open the URL saved in 'data' when the notification was first created.
+    );
+});
