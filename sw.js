@@ -5,7 +5,7 @@ importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox
 const CACHE_NAME = "pwabuilder-offline-page-v2"; 
 
 // Страница для отображения в оффлайн-режиме
-const offlineFallbackPage = "index.html";
+const offlineFallbackPage = "offline-page.html";
 
 // Список статических ресурсов, которые должны быть закешированы
 const staticAssets = [
