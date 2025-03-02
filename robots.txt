@@ -1,4 +1,4 @@
 user-agent: *
 allow: /images
 disallow: /
-sitemap: https://griarsvah.github.io/PWABuilder/sitemap.xml
+sitemap: https://griarsvah.github.io/PWABuilder1/sitemap.xml
